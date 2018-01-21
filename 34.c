@@ -5,7 +5,7 @@ char str[100];
 int i,line=0;
 printf("Enter the paragraph:",str[i]);
 scanf("%c",&str[i]);
-for(i=0;str[i]!='\n';i++)
+for(i=0;str[i]!='\0';i++)
 {
 if(str[i]=\n)
 {
