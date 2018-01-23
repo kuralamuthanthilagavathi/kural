@@ -1,14 +1,15 @@
 #include<stdio.h>
-void fib(int n)
+int fib(int n)
 {
    if (n <= 1)
-printf("The value of n");  
+return n;
 return fib(n-1) + fib(n-2);
 }
  
-void main ()
+int main ()
 {
   int n = 9;
   printf("%d", fib(n));
   getchar();
+   return0;
 }
