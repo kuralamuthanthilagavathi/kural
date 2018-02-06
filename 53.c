@@ -9,7 +9,7 @@ int main()
 
     printf("Enter the number \n");
 
-    scanf("%ld", &num);
+    scanf("%d", &num);
 
     temp = num;
 
@@ -21,13 +21,12 @@ int main()
 
         sum  = sum + digit;
 
-        num /= 10;
-
+num=num/10;
     }
 
-    printf("Given number = %ld\n", temp);
+    printf("Given number = %d\n", temp);
 
-    printf("Sum of the digits %ld = %ld\n", temp, sum);
+    printf("Sum of the digits %ld = %d\n", temp, sum);
 
 return 0;
 }
