@@ -9,5 +9,6 @@ scanf("%d",&j);
 temp=i;
 i=j;
 j=temp;
+printf("%d %d",i,j);
 return 0;
 }
